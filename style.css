@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+    /* display: flex; */
+}
+
+.logo {
+    max-width: 20%;
+    height: 10px;
+    margin: 10px auto;
+}
+
+.m_logo {
+    position: relative;
+    top: -15px;
+}
+
+nav {
+    display: flex;
+    height: auto;
+    background-color: blue;
+    border-bottom: 10px solid #000;
+}
+
+ul {
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+li {
+    float: left;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+}
+
+.search_bar {
+    float: right;
+    padding: 6px 10px;
+    margin-top: -40px;
+    margin-right: 5rem;
+}
+
+.btn {
+    float: right;
+    padding: 6px 10px;
+    margin-top: -40px;
+    margin-right: 5rem;
+    border: none;
+    cursor: pointer;
+    border-style: none;
+    color: transparent !important;
+}
+
+span .cart {
+    color: green;
+    float: right;
+    padding: 6px 10px;
+    margin-top: -40px;
+    margin-right: 5rem;
+}
